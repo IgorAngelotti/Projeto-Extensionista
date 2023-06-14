@@ -35,14 +35,6 @@ header > h2{
     text-shadow: 2px 2px #454545ac;
 }
 
-header > h3{
-    text-decoration: none;
-    font-size: 1.2em;
-    padding-bottom: 10px;
-    text-align: center;
-    text-shadow: 2px 2px #454545ac;
-}
-
 menu{
     display: none;
 }
@@ -91,6 +83,17 @@ main{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px rgba(135, 135, 135, 0.493);
 }
+
+main > h3{
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: -30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
 
 main > article > h2{
     color: rgb(21, 0, 247);
