@@ -23,7 +23,14 @@ header > h1{
 
 header > h2{
     font-size: 1.7em;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px #454545ac;
+}
+
+header > h3{
+    font-size: 1.2em;
+    padding-bottom: 10px;
     text-align: center;
     text-shadow: 2px 2px #454545ac;
 }
