@@ -58,6 +58,7 @@ menu > ul > li > a{
     background-color: rgba(40, 74, 88, 0.913);
     color: white;
     border-top: 2px solid darkgray;
+    font-style: oblique;
 }
 
 menu > ul > li > a:hover{
