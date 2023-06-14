@@ -36,6 +36,7 @@ header > h2{
 }
 
 header > h3{
+    text-decoration: none;
     font-size: 1.2em;
     padding-bottom: 10px;
     text-align: center;
@@ -99,7 +100,7 @@ main > article > h2{
 }
 
 main > article > p{
-    color: rgb(0, 70, 247);
+    color: rgb(0, 78, 247);
     margin-bottom: 15px;  
     text-align: justify;
     font-size: 1.1em;
