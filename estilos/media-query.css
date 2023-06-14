@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        box-shadow:  0px 0px 5px  rgba(122, 122, 122, 0.644);
+    }
+
+    menu > ul > li > a{
+        border: none;
+        border-radius: 2px;
+    }
+
+    menu > ul{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    main{
+        width: 768px;
+    }
+}
