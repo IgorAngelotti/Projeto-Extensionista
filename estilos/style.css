@@ -15,12 +15,14 @@ header{
 }
 
 header > h1{
+    font-size: 2.5em;
     padding: 10px;
     text-align: center;
     text-shadow: 2px 2px #454545ac;
 }
 
 header > h2{
+    font-size: 1.7em;
     padding-bottom: 20px;
     text-align: center;
     text-shadow: 2px 2px #454545ac;
@@ -66,12 +68,12 @@ span#burguer:hover{
 
 main{
     background-color: white;
-    width: 90vw;
+    width: 87vw;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     margin-top: 0px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 1px rgba(151, 151, 151, 0.493);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 4px rgba(151, 151, 151, 0.493);
 }
 
 main > article > h2{
@@ -80,7 +82,7 @@ main > article > h2{
 }
 
 main > article > p{
+    margin-bottom: 15px;  
     text-align: justify;
-    text-indent: 20px;
-    margin-bottom: 20px;  
+    font-size: 1.1em;
 }
