@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 @media screen and (min-width: 768px) {
+    
+    header{
+        box-shadow: inset 0px -2px 4px rgba(93, 93, 93, 0.292);
+    }
     span#burguer{
         display: none;
     }
