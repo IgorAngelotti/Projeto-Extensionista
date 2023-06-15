@@ -109,7 +109,7 @@ main > #crp{
 }
 
 
-main > article > h2{
+main > article > h3{
     color: rgb(21, 0, 247);
     background-image: linear-gradient(to right, #b37fe3ba, transparent);
     font-size: 1.7em;
