@@ -3,12 +3,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 body, html{
     background-color: #e9d4fda0;
+    background-size: auto;
     font-family: Arial, sans-serif;
-    height: 100vh;
 }
 
 header{
@@ -73,6 +74,19 @@ span#burguer:hover{
     color: black;
     transition: 0.15s;
 }
+
+.scroll-to-section {
+    animation: scrollAnimation 1s ease-in-out;
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 main{
     width: 87vw;
