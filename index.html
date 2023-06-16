@@ -34,8 +34,31 @@
             <p>São três os elementos essenciais da aliança terapêutica: o <strong>acordo entre as partes</strong> a respeito dos objetivos do tratamento; o <strong>vínculo emocional</strong> entre paciente e terapeuta; o <strong>pacto entre ambos</strong> no que tange o trabalho a ser desenvolvido dentro e fora das sessões de psicoterapia para que os objetivos sejam atingidos.</p>
             <h3 id="Sobre">*TEXTO PARA TESTES*</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, itaque eum rerum consequatur non esse voluptatem, cupiditate adipisci facere eligendi, commodi quibusdam quia maxime aperiam cum rem. Deserunt, aut laboriosam?</p>
-            <h3 id="Agendamento">*TEXTO PARA TESTES*</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi explicabo rem suscipit aperiam consequatur repellat asperiores dicta tenetur porro? Dignissimos ad fuga aperiam repellendus rerum laborum distinctio dicta at.</p>
+            <h3 id="Agendamento">Agende uma consulta</h3>
+            <div id="area">
+                <form id="formulario" autocomplete="off">
+                  <fieldset>
+                        <legend>Dados</legend>
+                        <div class="campo">
+                            <label for="inome">Nome: </label>
+                            <input type="text" name="nome" id="inome">
+                        </div>
+                        <div class="campo">
+                            <label for="iemail">Email: </label>
+                            <input type="email" name="email" id="iemail" autocomplete="email" required>
+                        </div>
+                        <div class="campo">
+                            <label for="itel">Telefone: </label>
+                            <input type="tel" name="tel" id="itel" placeholder="(xx) xxxxx-xxxx">
+                        </div>
+                    <div class="campo">
+                        <label for="imsg">Mensagem:</label><br>
+                        <textarea class="msg" id="imsg" ifcols="35" rows="9" cols="100"></textarea>
+                    </div>
+                    <input class="btn_submit" type="submit" value="Enviar">
+                  </fieldset>
+                </form>
+              </div>
         </article>
     </main>
     <script src="JavaScript/script.js"></script>

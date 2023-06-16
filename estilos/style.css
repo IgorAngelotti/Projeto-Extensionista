@@ -53,6 +53,7 @@ menu > ul > li > a{
     color: white;
     border-top: 2px solid darkgray;
     font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 menu > ul > li > a:hover{
@@ -96,6 +97,7 @@ main{
     margin-top: 0px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px rgba(135, 135, 135, 0.493);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main > #crp{
@@ -114,6 +116,7 @@ main > article > h3{
     background-image: linear-gradient(to right, #b37fe3ba, transparent);
     font-size: 1.5em;
     text-align: left;
+    text-transform: uppercase;
     padding: 5px;
 
 }
@@ -126,4 +129,58 @@ main > article > p{
     line-height: 1.5em;
     margin-top: 20px;
     text-indent: 20px;
+}
+
+fieldset{
+    border:3px solid #b37fe33e ;
+    padding: 10px 5px;
+}
+
+#area{
+    margin-top: 20px;
+}
+
+#area > fieldset > input{
+    padding: 10px;
+}
+
+#area{
+    color: rgb(0, 78, 247);
+    font-weight: bold;
+}
+
+.campo{
+    margin-bottom: 5px;
+}
+
+.campo > input, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d1b1f0ba;
+    border: 1px solid;
+    padding: 2px;
+    width: 200px;
+    border: 1px solid rgb(0, 78, 247);
+}
+
+.campo > textarea{
+    width: 400px;
+}
+
+.campo > input:focus, textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn_submit{
+    color:rgb(0, 78, 247);
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(185, 185, 185, 0.395);
+    padding: 5px;
+    border: 1px solid rgb(0, 78, 247);
+    border-radius: 5px;
+}
+
+.btn_submit:hover{
+    background-color: rgba(198, 198, 198, 0.514);
+    cursor: pointer;
 }
