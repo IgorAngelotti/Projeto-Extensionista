@@ -118,6 +118,7 @@ main > article > h3{
     text-align: left;
     text-transform: uppercase;
     padding: 5px;
+    margin-top: 30px; /*Antes era 20px*/
 
 }
 
@@ -125,10 +126,30 @@ main > article > p{
     color: rgb(0, 78, 247);
     margin-bottom: 20px;  
     text-align: justify;
+    text-indent: 20px;
     font-size: 1.1em;
     line-height: 1.5em;
+    margin-top: 20px; /*Antes era 20px*/
+}
+
+#Agendamento{
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #b37fe3ba, #bf9fdc48,#b37fe3ba );
+}
+
+#area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /* Defina uma altura para a caixa pai */
     margin-top: 20px;
-    text-indent: 20px;
+    color: rgb(0, 78, 247);
+    font-weight: bold;
+}
+
+#formulario{
+    margin: auto
 }
 
 fieldset{
@@ -136,18 +157,12 @@ fieldset{
     padding: 10px 5px;
 }
 
-#area{
-    margin-top: 20px;
-    color: rgb(0, 78, 247);
-    font-weight: bold;
-}
-
 fieldset > legend{
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-#area > fieldset > input{
+fieldset > input{
     padding: 10px;
 }
 
