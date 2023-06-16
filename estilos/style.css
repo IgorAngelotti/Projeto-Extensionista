@@ -134,20 +134,16 @@ main > article > p{
 fieldset{
     border:3px solid #b37fe33e ;
     padding: 10px 5px;
-    width: 50%;
 }
 
 #area{
     margin-top: 20px;
+    color: rgb(0, 78, 247);
+    font-weight: bold;
 }
 
 #area > fieldset > input{
     padding: 10px;
-}
-
-#area{
-    color: rgb(0, 78, 247);
-    font-weight: bold;
 }
 
 .campo{
@@ -159,12 +155,11 @@ fieldset{
     background-color: #d1b1f0ba;
     border: 1px solid;
     padding: 2px;
-    width: 200px;
     border: 1px solid rgb(0, 78, 247);
 }
 
 .campo > textarea{
-    width: 400px;
+    max-width: 50%;
 }
 
 .campo > input:focus, textarea:focus{
