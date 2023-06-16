@@ -134,6 +134,7 @@ main > article > p{
 fieldset{
     border:3px solid #b37fe33e ;
     padding: 10px 5px;
+    width: 50%;
 }
 
 #area{
