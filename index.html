@@ -41,7 +41,7 @@
                         <legend>Dados</legend>
                         <div class="campo">
                             <label for="inome">Nome: </label>
-                            <input type="text" name="nome" id="inome" required>
+                            <input type="text" name="nome" id="inome" required maxlength="45">
                         </div>
                         <div class="campo">
                             <label for="iemail">Email: </label>
@@ -56,8 +56,8 @@
                             <input type="date" name="data" id="data" required>
                         </div>
                         <div class="campo">
-                            <label for="imsg">Mensagem:</label><br>
-                            <textarea class="msg" id="imsg" ifcols="35" rows="9"></textarea>
+                            <label for="imsg">Assunto: </label><br>
+                            <textarea class="msg" id="imsg" ifcols="35" rows="9" maxlength="1000"></textarea>
                         </div>
                     <input class="btn_submit" type="submit" value="Enviar">
                   </fieldset>
