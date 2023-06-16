@@ -146,6 +146,10 @@ main > article > p{
     font-weight: bold;
 }
 
+#formulario{
+    margin: auto;
+}
+
 fieldset{
     border:3px solid #b37fe33e ;
     padding: 10px 5px;
