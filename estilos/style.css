@@ -142,6 +142,11 @@ fieldset{
     font-weight: bold;
 }
 
+fieldset > legend{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
 #area > fieldset > input{
     padding: 10px;
 }
@@ -173,6 +178,7 @@ fieldset{
     font-weight: bold;
     box-shadow: 2px 2px 2px rgba(185, 185, 185, 0.395);
     padding: 5px;
+    margin-bottom: 10px;
     border: 1px solid rgb(0, 78, 247);
     border-radius: 5px;
 }
