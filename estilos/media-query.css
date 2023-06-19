@@ -38,11 +38,4 @@
         text-align: justify;
         font-size: 1.2em;
     }
-
-    .campo{
-        margin-bottom: 7px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 }

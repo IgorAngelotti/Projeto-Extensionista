@@ -150,6 +150,13 @@ main > article > p{
     margin: auto;
 }
 
+.campo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+} /*RETIRAR DAQUI E COLOCAR NO MEDIA-QUERY CASO NAO QUERER*/
+
 fieldset{
     border:3px solid #b37fe33e ;
     padding: 10px 5px;
