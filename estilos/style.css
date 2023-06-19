@@ -120,19 +120,24 @@ main > article > h3{
     margin-top: 30px; /*Antes era 20px*/
 }
 
-main > article > p{
+main > article  p{
     color: rgb(0, 78, 247);
-    margin-bottom: 20px;  
+    margin: 20px auto 20px;  
     text-align: justify;
     text-indent: 20px;
     font-size: 1.1em;
     line-height: 1.5em;
-    margin-top: 20px; /*Antes era 20px*/
+    margin-top: 20px; 
 }
 
-#Agendamento{
+
+main > article > .sobremim  p{
     text-align: center;
-    margin-top: 50px;
+    margin: 10px auto 10px;
+}
+
+#Agendamento, #Sobre{
+    text-align: center;
     background-image: linear-gradient(to right, #b37fe3ba, #bf9fdc48,#b37fe3ba );
 }
 
@@ -215,4 +220,11 @@ fieldset > legend{
 .btn_submit:hover{
     background-color: rgba(198, 198, 198, 0.514);
     cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.774);
 }

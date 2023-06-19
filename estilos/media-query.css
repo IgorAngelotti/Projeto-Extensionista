@@ -33,7 +33,7 @@
         max-width: 1100px;
     }
 
-    main > article > p{
+    main > article p{
         margin-bottom: 15px;  
         text-align: justify;
         font-size: 1.2em;
