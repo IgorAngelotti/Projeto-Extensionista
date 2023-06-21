@@ -120,9 +120,21 @@ main > article  p{
     margin-top: 20px; 
 }
 
+.sobremim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
 
-.sobremim  p{
-    text-align: center;
+.sobremim img {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.sobremim > .txtsobremim p{
+    text-align: justify;
     margin: 10px auto 10px;
 }
 
