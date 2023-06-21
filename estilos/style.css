@@ -127,13 +127,11 @@ main > article  p{
 }
 
 .sobremim img {
-    display: flex;
     width: 50%;
     margin: auto;
 }
 
 .sobremim  p{
-    text-align: justify;
     margin: 10px auto 10px;
 }
 

@@ -42,7 +42,6 @@
     .sobremim{
         display: flex;
         flex-direction: row;
-        justify-content: center;
     }
 
     .sobremim img {
@@ -51,7 +50,6 @@
     }
 
     .sobremim p{
-        text-align: justify;
         text-indent: 0px;
     }
 
