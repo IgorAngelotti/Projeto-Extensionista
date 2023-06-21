@@ -5,5 +5,5 @@ Discentes:
 - Brunno Zara Bolognisi
 - Arhur Sangaleti Lopes
 - Gabriel Rodrigues Souza
-Site do projeto Extensionista -> [https://igorangelotti.github.io/Projeto-Extensionista/](https://igorangelotti.github.io/Projeto-Extensionista/)
+## Site do projeto Extensionista -> [https://igorangelotti.github.io/Projeto-Extensionista/](https://igorangelotti.github.io/Projeto-Extensionista/)
 
