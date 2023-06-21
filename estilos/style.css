@@ -117,7 +117,6 @@ main > article  p{
     text-indent: 20px;
     font-size: 1.1em;
     line-height: 1.5em;
-    margin-top: 20px; 
 }
 
 .sobremim{
@@ -133,7 +132,7 @@ main > article  p{
     margin: auto;
 }
 
-.sobremim > .txtsobremim p{
+.sobremim  p{
     text-align: justify;
     margin: 10px auto 10px;
 }
