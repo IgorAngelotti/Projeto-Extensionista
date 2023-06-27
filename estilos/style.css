@@ -134,7 +134,7 @@ main > article  p{
     margin: 10px auto 10px;
 }
 
-#Agendamento, #Sobre{
+#Agendamento, #Sobre, #Contato{
     text-align: center;
     background-image: linear-gradient(to right, #b37fe3ba, #bf9fdc48,#b37fe3ba );
 }
