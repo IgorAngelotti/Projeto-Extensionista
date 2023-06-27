@@ -99,7 +99,7 @@ main{
     text-align: center;
 }
 
-main > article > h3{
+main > article  h3{
     color: rgb(21, 0, 247);
     background-image: linear-gradient(to right, #b37fe3ba, transparent);
     font-size: 1.5em;
@@ -107,6 +107,7 @@ main > article > h3{
     text-transform: uppercase;
     padding: 5px;
     margin-top: 30px; /*Antes era 20px*/
+    box-shadow: 2px 2px 2px rgba(74, 74, 74, 0.215);
 }
 
 main > article  p{
@@ -217,6 +218,14 @@ fieldset > legend{
 .btn_submit:hover{
     background-color: rgba(198, 198, 198, 0.514);
     cursor: pointer;
+}
+
+.contato{
+    margin: 10px auto -10px;
+}
+
+.contato > p{
+    margin:  auto auto;
 }
 
 footer{
