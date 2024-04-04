@@ -40,7 +40,6 @@
     }
 
     .sobremim{
-        display: flex;
         flex-direction: row;
     }
 
@@ -52,4 +51,10 @@
     .sobremim p{
         text-indent: 0px;
     }
+
+    .campo-assunto textarea {
+        width: 500px;
+        
+    }
+    
 }   

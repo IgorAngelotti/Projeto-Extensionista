@@ -7,7 +7,7 @@
 }
 
 body, html{
-    background-color: #e9d4fda0;
+    background-color: #f0e4fa6f;
     background-size: auto;
     font-family: Arial, sans-serif;
 }
@@ -102,7 +102,7 @@ main  h3{
     color: rgb(21, 0, 247);
     background-image: linear-gradient(to right, #b37fe3ba, transparent);
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     padding: 5px;
     margin-top: 30px; 
@@ -121,13 +121,13 @@ main  p{
 .sobremim{
     display: flex;
     flex-direction: column;
+    align-items:center;
     justify-content: center;
     margin-top: 30px;
 }
 
 .sobremim img {
     width: 50%;
-    margin: auto;
 }
 
 .sobremim  p{
@@ -192,8 +192,8 @@ fieldset > legend{
 }
 
 .campo-assunto textarea {
-    width: 50vw;
-    max-width: 50vw;
+    width: 250px;
+    transition-duration:0.2s;
 }
 
 .campo > input:focus, textarea:focus{
@@ -233,4 +233,8 @@ footer{
     color: white;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.774);
+}
+
+textarea{
+    resize: none;
 }
